@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
 }
 
+/* styling the navigation bar */
+
 nav {
   height: 80px;
   background: #ffffff;
@@ -56,6 +58,8 @@ nav {
   text-decoration: none;
 }
 
+/* underline effect for nav items on hover */
+
 .nav-list li a:hover::after {
   content: "";
   position: absolute;
@@ -94,6 +98,7 @@ a .nav-button {
   text-align: center;
 }
 
+/* main header */
 .main-header-wrapper {
   background-image: url(images/header-image.png);
   background-color: #041836;
@@ -153,8 +158,6 @@ a .nav-button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-left: 40px;
-  padding-right: 120px; */
 }
 
 .header-buttons button {
@@ -183,8 +186,6 @@ a .nav-button {
   line-height: 17px;
 
   text-align: center;
-
-  /* Blue */
 
   color: #3574c4;
 }
@@ -233,7 +234,7 @@ a .nav-button {
   position: relative;
   width: 1216px;
   height: 145px;
-  /* left: 112px; */
+
   top: 56px;
 }
 
@@ -345,6 +346,9 @@ a .nav-button {
 
   color: #000000;
 }
+
+/* plain background section */
+
 .blue-background {
   background-color: #041836;
   width: 100vw;
@@ -353,6 +357,7 @@ a .nav-button {
   position: relative;
 }
 
+/* section page  */
 section {
   background-color: rgba(255, 255, 255, 0.95);
 }
@@ -529,30 +534,13 @@ Styling the footer */
 
   text-decoration: none;
 
-  /* width: 164px;
-  height: 192px;
-  left: 630px;
-  top: 3644px; */
-
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 64px;
 }
-/* .footer p {
-  position: relative;
-  width: 216px;
-  height: 32px;
 
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 12px;
-  line-height: 32px;
-
-  letter-spacing: 0.1em;
-} */
 .footer-p {
   display: flex;
   justify-content: center;
@@ -560,7 +548,7 @@ Styling the footer */
 }
 .footer-p p {
   position: relative;
-  /* left: 800px; */
+
   bottom: 14px;
   position: relative;
   width: 250px;
